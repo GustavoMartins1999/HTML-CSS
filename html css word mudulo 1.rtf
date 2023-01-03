@@ -1,0 +1,494 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1046{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset161 Calibri;}{\f2\fnil\fcharset1 Cambria Math;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mmathFont2\mwrapIndent1440 }\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang22 Curso HTML5 e CSS3\par
+\par
+\tab\tab historia da internet\par
+\par
+\par
+Surgiu na guerra fria; 1949; eua x urss; sputnik primeiro satelite artificial, eua considerou "espiao";\par
+Dwight Eisenhower ficou preocupado e fundou um orgao, uma agencia DARPA defende advanced research project agency;\par
+criou varias tecnologias para a guerra; primeira foi a arpanet que visava um backup das bases caso alguma fosse atacada;\par
+4 pontos que deviam se comunicar e fzer um backup gigante;\par
+NCP = protocolo de controle de rede : linguaguem unica; mt simples e prec\'e1rio;\par
+\par
+Bob Kahn/Robert Kahn criou o TCP transfer control protocol, eliminar o problema do antigo de parar a rede para fzer a transmissao de dados;\par
+numero de pontos mt grande e come\'e7ou a ter problemas\par
+\par
+Vint Cerf criou o IP (juntaram o tpc/ip que \'e9 usado ate hj)versao 6 atualmente;\par
+\par
+separaram as partes da rede para\par
+milnet(militar), nsfnet(cientifica) e comercial;\par
+por conta da necessidade da comunicacao de nsfnet e comercial criaram a internet;\par
+\par
+\tab\tab como funciona a requisi\'e7\'e3o de dados \par
+\tab\tab exemplo:\par
+\par
+meu pc ponto A e servidor ponto B\par
+requisi\'e7\'e3o de imagem; ela \'e9 quebrada em varias aprtes e \'e9 mandada de varias ordem e por varias rotas diferentes;\par
+no final da transmissao todos pacotes sao entregues;\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\tab\tab Como era a internet?\par
+\par
+\par
+protocolo goofer(internet podre)\par
+\par
+1993 Tim Berners-Lee TBL protocolo http(Hyper Text Transfer Protocol Secure) e criou o HTML(hyper text markup languague)\par
+tbm criou o www(rede de alcance mundial) necessario navegador e surgiu o primeiro nessa epoca\par
+\par
+Mosaid criado por Marc Andreessen\par
+\par
+\par
+\par
+\par
+\tab\tab Oq \'e9 World Wide Web?\par
+\par
+\par
+uma SubRede da internet\par
+Dentro da internet tem servidores especializados em determinados servi\'e7os e protocolos; ex: FTP, GOOFER,SMTP, POP3, IMAP, HTTP, \par
+rede dentro da grande rede internet;\par
+elas se comunicam e nao sao desconexas;\par
+\par
+\par
+\par
+\tab\tab Como funciona pra um html ser feito, construido, colocar no servidor e como ele chega na sua maquina\par
+\par
+\par
+\tab\par
+\tab\tab\par
+\tab\tab representa\'e7\'e3o de dados\par
+\par
+\par
+como o pc enxerga os dados? Sinais em 0 a 1;ondas quadradas/sinais eletricos; digitos binarios;bits;\par
+\par
+8 bits = byte\par
+byte \'e9 uma por\'e7\'e3o minima pra representar uma informa\'e7\'e3o\par
+\par
+1024 byte = 1 KB\par
+1024 kb = 1mb\par
+1024 mb = 1gb\par
+1024 gb = 1tb\par
+1024 tb = petabyte\par
+1024 pt = exabyte\par
+1024 eb = zetabyte\par
+1024 zb = yotabyte\par
+\par
+ MB e Mb sao diferentes\par
+MB = megabytes e Mb =megabits\par
+MB armazenamento e Mb transmissao(normalmente forma de medida de velocidade de internet)\par
+\par
+\par
+\par
+\tab\tab Como nos conectamos na net?\par
+\par
+cliente = celular. pc, tablet e derivados pessoais; uso de servi\'e7o;\par
+dados ficam na internet;\par
+para fzer o acesso \'e9 necessario um modem;\par
+pc s\'f3 aceita ondas quadradas e as antenas usam a onda senoidal; Modem serve para transformar a onda senoidal em quadrada ou vice-versa;(envio e recebimento de dados) MOdela\'e7\'e3o e DEModula\'e7\'e3o = MODEM\par
+\par
+como chegar ao servidor?\par
+servidores sao identificados por IP;\par
+\par
+como \'e9 achado o servidor?\par
+agenda eletronica que faz liga\'e7\'e3o entre nomes e numeros \'e9 chamado de servidor DNS (domain name system)\par
+\par
+\tab\tab Entendendo rotas\par
+\par
+existem varias rotas para o mesmo caminho, \'e9 identificado a melhor rota para evitar "congestionamento";\par
+cada pacote pode ir por varias rotas para chegar ao mesmo destino;\par
+\par
+\par
+\tab\tab\par
+\tab\tab Como as outras pessoas vao ver meu site?\par
+\par
+guardado no servidor: cliente requisita acesso ao site, dns identifica o ip e vc tem acesso ao servidor;\par
+\tab\tab s\'f3 funciona se estiver no servidor(precisa de url)\par
+\tab\tab necessario dominio; lugar para hospedar;\par
+\par
+Dom\'ednio = Nome que identifica seu site.\par
+Hospedagem = Local onde o site est\'e1 armazenado.\par
+\tab\tab dom\'ednio pago anualmente; nome \'fanico; varios TLD (CCTLD ou GTLD)\par
+\tab\tab hospedagem \'e9 um espa\'e7o para armazenar seu arquivo; pago mensalmente;\par
+\par
+\par
+\tab\tab Oq \'e9 uma URL?\par
+\par
+Sigla para Uniforme Resource Locator(Localizador de recurso unico/uniforme)\par
+so serve para desviar e apontar para um lugar;\par
+\par
+\tab\tab Partes da URL\par
+{{\field{\*\fldinst{HYPERLINK www.github.com?ablublublbuue }}{\fldrslt{www.github.com?ablublublbuue\ul0\cf0}}}}\f0\fs22\par
+dom\'ednio, TLD/GTLD(.com, .gov,.store, etc), WWW(sub-dom\'ednio), caminho.\par
+\par
+\par
+\par
+\tab\tab como funcionam a HTML e as CSS(linguagem e folha de estilo)\par
+\par
+\tab\par
+HTML = Hypertext Markup Language ( hypertexto, um texto que em uma area vc pode clica e te redireciona pra outro lugar)\par
+(markup vem de marcas, feita para marca\'e7\'e3o)\par
+\par
+CSS  = Cascading Style Sheets(folhas de estilo em cascata)\par
+porque uma modifica a caracter\'edstica padrao da outra;\par
+\par
+\par
+a linguagem de html \'e9 uma linguagem focada em conte\'fado; texto, imagens, videos, tabelas,listas, etc\par
+\par
+css foco em design, cor, tamanho, posicionamento, sombras, etc\par
+\par
+Javascript super recomendado; serve para intera\'e7\'f5es no site, menus interativos. anima\'e7\'f5es, popups, valida\'e7\'f5es\par
+\par
+\par
+\tab\tab como criar conteudo em html?\par
+\par
+\par
+\par
+        <h1> exemplo de titulo </h1> \par
+(h1 abertura de tag)(conteudo)( /h1 fechamento de tag)\par
+\par
+<p> exemplo de par\'e1grafo </p>\par
+\par
+ex tag de foto:\par
+<img src="foto.png" alt="Exemplo de foto">\par
+\par
+img = abertura de tag, n tem fechamento de /img(algumas tags n tem fechamento)\par
+alt = par\'e2metro\par
+exemplo de foto = valor\par
+\par
+Estilo em CSS\par
+\par
+h1\{\par
+   font-family: Arial;\par
+   font-size: 20pt;\tab\par
+   color: blue;\par
+\}\par
+\par
+h1 = seletor\par
+declara\'e7\'e3o = linha inteira dps do seletor(toda declara\'e7\'e3o tem ponto e virgula no final)\par
+color = propriedade\par
+blue = valor\par
+cada declara\'e7\'e3o \'e9 um par de cada propriedade e valor.\par
+\par
+\tab\tab Estrutura b\'e1sica de documento HTML\par
+\par
+<!DOCTYPE html>\par
+<html lang="pt-br">\par
+\tab <head>\tab\par
+\tab\tab <meta charset= "UTF-8">\par
+\tab\tab <meta name="viewport"\par
+\tab\tab content="width=device-width,\par
+\tab\tab initial-scale=1.0">\par
+\tab\tab <title>Document</title>\par
+\tab </head>\tab\par
+\tab <body>\par
+\tab\tab <h1>Ol\'e1, mundo! </h1>\par
+\tab </body>\par
+</html>\par
+\par
+Head e body estao levemente a direita, indenta\'e7\'e3o \par
+head \'e9 a area de configura\'e7\'f5es\par
+body \'e9 a area de corpo\par
+charset vai habilitar os caracteres especiais tipo o \'c7 e acentos;\par
+viewpoint vai abrir o site em 100% sem zoom in ou out;\par
+\par
+\tab\tab como funciona a HTML e CSS?\par
+\par
+seu pc acessa o servidor e faz uma copia do css e html; vai ser disponibilizado pro navegador; ele analiza linha a linha e gera um resultado visual;\par
+\par
+\par
+\par
+\par
+\tab\tab Front-end, Back-end e Full stack\par
+\par
+\par
+tecnologias client-side(front-end): Html, CSS, JS, \par
+front = partes visuais, cores, estilos, etc. focado no usuario;\par
+\par
+server- side(back-end): php, JS,C#, JAVA, Ruby, Python, etc\par
+back = focado na intera\'e7\'e3o do codigo dele com o servidor; com as tecnologias envolvidas no back-end;\par
+\par
+exemplo intera\'e7\'e3o front e back loja de camisetas :\par
+cliente solicita acessa do site, no servidor a linguagem faz requisi\'e7\'e3o ao banco de dados, que verifica quais camisetas aparecem, que estao em promo, etc\par
+a linguagem obtem as infos e gera a pagina no html puro e envia essas infos pro cliente ja com o html, css e js.\par
+\par
+full stack = \'e9 o desenvolvedor que se especializa nas duas \'e1reas;\par
+\par
+\par
+\par
+\tab\tab Codigos html\par
+\par
+P= paragrafo\par
+h1= cabe\'e7alho/header\par
+title= titulo\par
+<br>= quebra de texto \par
+&lt = less than(<)\par
+&gt = greater than(>)\par
+<! - - - -> = comentario\par
+\par
+\tab\tab MYSC Symbols\par
+\par
+&reg;\'ae \par
+&copy;\'a9\par
+&trade;\'99\par
+&euro;\'80\par
+&pound;\'a3\par
+&yen;\'a5\par
+&cent;\'a2\par
+&Delta;\f1\lang1032\'c4\par
+&uparrow;\f2\u8593?\f0\par
+&uarr;\f2\u8593?\f0\par
+\par
+\tab\tab Emoji\par
+\par
+\tab sempre come\'e7am com &#x e dps vem o codigo do emoji\par
+\par
+\par
+tomar cuidado com direitos autorais, sempre pesquisar  imagens que podem ser usadas;\par
+sites bons usados para fotos sem direitos: unsplash, pexels,\par
+     \par
+\par
+\tab\tab Quais sao os formatos para imagens na web?\par
+\par
+jpeg = formato de compacta\'e7\'e3o grande\par
+png = fundo transparente e qualidade melhor\par
+\par
+{{\field{\*\fldinst{HYPERLINK https://neilpatel.com/br/blog/formatos-de-imagem/ }}{\fldrslt{https://neilpatel.com/br/blog/formatos-de-imagem/\ul0\cf0}}}}\f0\fs22\par
+\par
+\tab\tab tamanho das imagens para um site\par
+\par
+caminho do gimp:\par
+imagem>redimensionar imagem> \par
+largura/altura 1500/1000\par
+resolucao: 50 ou 70 ideal\par
+\par
+\tab\tab exportando imagem\par
+caminho:\par
+imagem>export as>\par
+escolher o nome, escolher a qualidade e esportar\par
+redimensionar dnv, 650x 433\par
+resolu\'e7\'e3o 11\par
+razoavel pra usar em site\par
+exportar dnv, escolher nome e manter qualidade em 70%\par
+\par
+\tab a imagem full e\'b42 mb, a 1200 \'e9 400kb e a 650 120kb;\par
+\par
+png \par
+mudando o tamanho da img\par
+redimensionar \par
+largura 400x83\par
+resolu\'e7a\'f5 11\par
+largura 200x83\par
+resolucao 11\par
+\par
+comapra\'e7\'e3o de tamanho:\par
+png full: 23kb\par
+png 400 : 17kb\par
+png 200 : 13kb\par
+\par
+\par
+\tab\tab A tag img em html 5\par
+\par
+conceitos da aula anterior de diminuir img;\par
+podemos clicar na img na web, botao direito, copiar endere\'e7o da img e colar no codigo\par
+img \par
+no alt \'e9 explicacao da img\par
+\par
+iconarquive site de icon\par
+\par
+\tab\tab convertendo png em ico:\par
+\par
+favicon e escolher a melhor op\'e7\'e3o\par
+\par
+\tab\tab colocando favicon no code:\par
+\par
+antes do title dentro do head> link favicon>escolher o .ico\par
+\par
+\par
+\tab\tab Hierarquia de t\'edtulos\par
+\par
+<H1> titulo principal \par
+<h2> subtitulo \par
+<h3> subtitulo do subtitulo\par
+e proximos sao todos menores que o subtitulo\par
+vai ate o h6;\par
+lorem no code coloca um paragrafo.\par
+\par
+html5 \'e9 focado na sem\'e2ntica, focando no significado. Html4 focava mt em forma! \par
+Varias tags ficaram obsoletas; w3c posta as novidades em rela\'e7\'e3o a html;]\par
+\par
+termo em italico rapido, selecionar oq eu quero dx em italico ctrl + shift + p (emmet abreviation)\par
+<b> negrito nao semantico.\par
+<strong> negrito semantico.\par
+<i> italico nao sem\'e2ntico.\par
+<em> \'eanfase sem\'e2ntico.\par
+<mark> deixa o texto marcado como um marca texto.\par
+\par
+(mudando cor do marcador: no Head dps do title:\par
+<Style>\par
+        mark \{\par
+            background-color: limegreen;\par
+        \}\par
+</Style>)\par
+\par
+<big> tag obsoleta, deixa o texto um pco maior.\par
+<small> tag nao obsoleta, deixa o texto menor.\par
+<del> texto excluido, deve ser lido mas desconsiderado.\par
+<ins> texto inserido, para dar \'eanfasee indicar que foi add dps\par
+<u> sublinhado nao sem\'e2ntico\par
+<sup> Texto sobrescrito, como x elevado ao quadrado.\par
+<sub> Texto subscrito, como h20(formula da agua)\par
+<code> deixa escrito em forma de codigo, letra com msm espa\'e7amento.\par
+<pre> deixa o codigo escrito certinho, sem ficar tudo na msm linha \par
+(shift + tab puxa o codigo pra esquerda pra tirar os espa\'e7os e tab coloca espa\'e7o)\par
+<q> cita\'e7\'e3o simples, serve para deixar a frase com aspas e dar sentido a uma cita\'e7\'e3o.\par
+<blockquote> citacao em bloco/completa.\par
+cite = colocar o link da cita\'e7\'e3o faz com que o google reconhe\'e7a da onde vem aquela frase.\par
+<abbr> coloca um tipo de descri\'e7\'e3o onde eu quero, por exemplo em siglas(da pra ver o significado delas ao passar o mouse em cima)\par
+<bdo> l e r (esquerda e direita) left to right texto normal. right to left texto invertido.\par
+<ol> lista ordenada, tudo que ficar dentro recebe numera\'e7\'e3o automatica e \'e9 organizado.pode colocar os tipes 1 A a I i. Exemplo:<ol type="I"> 1\par
+1- lista numerica. A- letras maiusc. a- letra minusc. I romanos maiusc. i romanos minusc.\par
+<li> serve pra colocar os itens da lista\par
+<ul> lista nao ordenada, serve para listar de mercado por exemplo. listas que n precisam de ordem. type : circle, disc e square. Exemplo:<ul type="square">\par
+<dl> lista de defini\'e7\'f5es\par
+<dt>Termo\par
+<dd>Descri\'e7\'e3o\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+Podemos fzer listas dentro de listas, por exemplo no codigo:\par
+    <ol>\par
+        <li>antigas</li>\par
+        <ol type="a">\par
+            <li>Clipper</li> \par
+            <li>Visual Basic</li>  \par
+            <li>Fortran</li> \par
+            <li>Delphi</li>\par
+        </ol>\par
+        <li>Novas</li>\par
+        <ol type="a"start="5">\par
+            <li>PHP</li> \par
+            <li>Python</li>  \par
+            <li>JavaScript</li>\par
+            <li>Kotlin</li>\par
+        </ol>\par
+    </ol>\par
+\par
+ol dentro de ol!\par
+Segurando alt da pra clicar em multiplos lugares e mudar/alterar varias tags ao mesmo tempo\par
+\par
+\par
+\par
+\tab\tab Link e \'c2ncoras em HTML5\par
+\par
+link externo: colocando o codigo A vc coloca o link de refer\'eancia desejado. Exemplo:\par
+<p>Voc\'ea pode acessar o meu\par
+ <a href="https://github.com/gustavoguanabara">\par
+reposit\'f3rio p\'fablico no GitHub</a></p>\par
+\par
+\par
+deixando assim vc faz o link abrir em nova guia ( target="_blank") normalmente quando o site n \'e9 seu e vc quer manter a pessoa no site.\par
+<p>Voc\'ea pode acessar o meu \par
+<a href="https://github.com/gustavoguanabara" target="_blank" rel="external">\par
+reposit\'f3rio p\'fablico no GitHub</a></p>\par
+\par
+link interno\par
+\par
+criando um segundo html dentro da msm pasta de preferencia, vc pode dar <a> e apertar ctrl + espa\'e7o que vai aparecer a outra html criada e assim formar um link interno.\par
+aplicando o <a> e em seguida colocando rel=next ou rel=prev, facilita a busca do google e o entendimento dele na navega\'e7\'e3o, facilitando do site aparecer nas buscas.\par
+colocar no rel=nofollow" no codigo dps do target blank deixa entendido pro mecanismo de busca que n da o aval sobre aquele conteudo.\par
+para o lik podemos usar ./ para a mesma pasta e ../ para a pasta anterior.\par
+\par
+\par
+colocando itens para baixar, exemplo no codigo:\par
+\par
+ <h1>Link para download</h1>\par
+    <ul>\par
+        <li><a href="livro/meu livro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li> \par
+        <li><a href="livro/meu livro.zip.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>\par
+    </ul>\par
+\par
+arquivo download pdf no chrome botao direito e salvar como. Arquivos zip baixam na hora!\par
+\par
+\par
+\tab\tab Imagens Din\'e2micas\par
+\par
+gimp>arquivo>novo>op\'e7\'f5es avan\'e7adas\par
+3 imagens com 3 tamanhos diferentes\par
+arq1 300 altx300 larg resul. 80\par
+arq2 700x700 resolu\'e7\'e3o 80\par
+arq3 1000x1000 resolu\'e7\'e3o 80\par
+\par
+\par
+\tab\tab Imagens que se adaptam sozinhas\par
+\par
+<picture>\par
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">\par
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">\par
+        <img src="imagens/foto-g.png" alt="imagem flex\'edvel">\par
+    </picture>\par
+\par
+\par
+exemplo de codigo que a imagem se adapta com o tamanho do navegador, ideal para celulares,pc e tv.\par
+\par
+\tab\tab Colocando audio nos sites\par
+\par
+ <audio src="midia/At First Sight - FiftySounds.mp3" controls autoplay></audio>\par
+\par
+exemplo de codigo que coloca audio em site. <audio>\par
+colocando por exemplo:\par
+source src '' '' '' type=audio/mpeg\par
+source src '' '' '' type=audio/ogg\par
+source src '' '' '' type=audio/wav (cuidado com wave pq os arquivos dele sao mt pesados)\par
+<p> infelizmente seu naveg. n consegue reproduzir audio, clique aq para baixar o arquivo\par
+ele procura em todos os tipos de audio pra ver se o navegador suporta e ainda avisa o cliente se ele n consegue reproduzir e deixa disp o download\par
+\tab\par
+colocando <audio preload=metadata"> ele carrega apenas o vital do arquivo de video/audio caso seja grande para evitar gastos de internet de celular por exemplo\par
+\par
+\par
+\tab\tab formatos de video para seu site\par
+\par
+handbrake otimo programa pra converter videos e diminuir o tamanho!\par
+\par
+hospedagem proprio exemplo de codigo:\par
+ \par
+<video width="500" poster="imagens/png cachoeira.png" controls>\par
+        <source src="midia/meu video.mp4.mp4" type="video/mp4">\par
+        <source src="midia/Meu Video.mkv.mkv" type="video.mkv">\par
+        <source src="midia/Meu Video.Webm.webm" type="video.webm">\par
+        <p>Seu navegador n\'e3o tem compatibilidade com reprodu\'e7\'e3o de videos.</p>\par
+\par
+\par
+esse metodo hospeda no proprio servidor e gera um custo de dados mt grande!\par
+\par
+\tab\par
+\tab existe outar forma, incoporando videos externos:\par
+incorporando videos do yt, copiando o codigo e jogando eles no coder.\par
+\par
+\par
+\tab\par
+CSS inline \'e9 o style dentro de cada linha de codigo, mt trabalhoso.\par
+CSS interno \'e9 a tag style dentro do head, deixando mais simples e facil de entender.Desvantagem \'e9 que o style normalmente \'e9 maior que o conte\'fado.\par
+vc tbm \'e9 obrigado a dar ctrl c + ctrl v no style em todas as p\'e1ginas do cliente. \par
+CSS externo vc coloca <link> e escolhe a op\'e7\'e3o do css, vc pode fzer isso com varias paginas e todas elas usam o mesmo css.\par
+vc cria um style.css e todas as paginas usam o mesmo arquivo pra style\par
+\par
+\par
+\par
+\par
+
+\pard\ri-1800\sa200\sl276\slmult1\tx9372\lang22\par
+}
+ 
